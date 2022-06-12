@@ -160,9 +160,16 @@ footer.flex__item {
 
 @media screen and (max-width: 768px) {
 
+  footer.flex__item {
+    display: flex;
+    justify-content: space-around;
+    }
+
+
   .footer-nav__list-link {
       display: block;
       border-left: solid 0px;
       font-size: 15px;
+      line-height: 2;
   }
 }
