@@ -1,0 +1,61 @@
+.header-logo-service {
+  position: relative;
+  left: 0;
+  background: url(../img/mv.png) no-repeat center/cover;
+  height: 30vh;
+  width: 100vw;
+  color: white;
+  z-index: -10;
+}
+
+.header-logo-service__text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  width: 100vw;
+}
+
+.header-logo-service__text-sub {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+  display: block;
+}
+
+.contact-form{
+  width: 60%;
+  margin: 30px auto;
+  font-weight: 600;
+}
+
+.form__conpany-text{
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form__conpany-red {
+  color: red;
+}
+.form__conpany-textarea {
+  height: 100px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.form-btn {
+  margin: 32px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 280px;
+  display: block;
+  background: black;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}

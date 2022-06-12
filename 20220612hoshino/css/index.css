@@ -1,0 +1,277 @@
+.header-logo {
+  position: relative;
+  background: url(../img/mv.png) no-repeat center/cover;
+  background-size: 100% 100%;
+  height: 80vh;
+  color: white;
+  z-index: -10;
+}
+
+.header-logo__text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  width: 100vw;
+}
+
+.header-logo__text-sub{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    display: block;
+}
+
+.main-msg{
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  width: 100vw;
+}
+
+.main-msg__ttl{
+  font-size: 30px;
+  padding-top: 90px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.main-msg__txt{
+  margin-top: 40px;
+  font-size: 15px;
+  line-height: 25px;
+  padding-left: 10vw;
+  padding-bottom: 90px;
+  padding-right: 10vw;
+}
+
+.service{
+  width: 100vw;
+}
+
+.service__ttl{
+  text-align: center;
+  font-size: 30px;
+  margin: 30px;
+}
+
+.service__item-img{
+  width: 100%;
+}
+
+.service__item{
+  break-inside: avoid;
+  line-height: 24px;
+  margin-bottom: 20px;
+
+}
+
+.service__wrap{
+  column-count: 2;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .service__wrap {
+    width: 90%;
+    column-count: 1;
+  }
+}
+
+.service-btn{
+  text-align: center;
+  margin: 20px
+}
+
+.service-btn_show{
+  background: red;
+  color: white;
+  font-weight: 600;
+  display: inline;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.service-btn_show:hover {
+  filter: grayscale(50%);
+  transition: 0.4s;
+}
+
+.news{
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 100vw;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.news-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 50px 60px;
+}
+
+.news-ttl{
+  color: white;
+  font-size: 30px;
+}
+
+.news-btn__show{
+  display: inline-block;
+  background: red;
+  padding: 10px 10px;
+  color: white;
+}
+
+.news-btn__show:hover {
+  filter: grayscale(50%);
+  transition: 0.4s;
+}
+
+.news-list{
+  background: white;
+  padding: 30px 20px;
+  color: black;
+  margin: 10px 60px;
+}
+
+.news-list:hover {
+  background-color: gray;
+  transition: 0.4s;
+}
+
+.blog{
+  width: 100vw;
+}
+
+.blog-ttl{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.blog__card-flex{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
+.blog-box {
+  width: 30%;
+  margin: 30px 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-box {
+    width: 100%;
+  }
+}
+
+.blog__card-img{
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.blog__card{
+  width: 100%;
+  line-height: 30px;
+}
+
+.blog__card:hover {
+  opacity: 0.5;
+  transition: 0.4s;
+}
+
+.blog__article-ttl{
+  margin-top: 10px;
+}
+
+#recruit {
+  margin-top: 80px;
+  width: 100vw;
+}
+
+.flex__item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.recruit__item {
+  height: 300px;
+  position: relative;
+  width: 50%;
+  display: block;
+  transition: 0.4s;
+}
+
+.recruit__item:hover {
+  background: gray;
+  transition: 0.4s;
+}
+
+.recruit__item--first {
+  background: red;
+  background-size: cover;
+}
+
+.recruit__item--second {
+  background: black;
+  background-size: cover;
+}
+
+.recruit__item-ttl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 30px;
+}
+
+.contact{
+  width: 100vw;
+  background-color: aliceblue;
+  padding: 100px 0;
+}
+.contact__ttl {
+  text-align: center;
+  font-size: 30px;
+}
+
+.contact__msg {
+  text-align: center;
+  font-size: 20px;
+  line-height: 60px;
+}
+
+footer.flex__item{
+  background-color: rgba(0, 0, 0, 0.85);
+  margin: 0;
+  width: 100vw;
+}
+
+.top-footer__img-link{
+  font-size: 10px;
+  margin-left: 20px;
+}
+
+.footer-nav__list-link {
+  display: inline-block;
+  border-left: solid 2px white;
+  padding: 0 10px;
+}
+
+.footer-nav__list-link:first-of-type{
+  border-left: solid 0;
+}
+
+.top-footer-nav{
+  font-size: 10px;
+  margin: 20px;
+}
