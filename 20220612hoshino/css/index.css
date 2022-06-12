@@ -249,29 +249,3 @@
   font-size: 20px;
   line-height: 60px;
 }
-
-footer.flex__item{
-  background-color: rgba(0, 0, 0, 0.85);
-  margin: 0;
-  width: 100vw;
-}
-
-.top-footer__img-link{
-  font-size: 10px;
-  margin-left: 20px;
-}
-
-.footer-nav__list-link {
-  display: inline-block;
-  border-left: solid 2px white;
-  padding: 0 10px;
-}
-
-.footer-nav__list-link:first-of-type{
-  border-left: solid 0;
-}
-
-.top-footer-nav{
-  font-size: 10px;
-  margin: 20px;
-}
